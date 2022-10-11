@@ -10,7 +10,7 @@
 
   outputs = { self, nixpkgs, flake-utils }:
     let
-      systems = [ flake-utils.lib.system.x86_64-darwin ];
+      systems = [ flake-utils.lib.system.x86_64-darwin flake-utils.lib.system.aarch64-darwin ];
     in
       flake-utils.lib.eachSystem systems (system: 
         let 
