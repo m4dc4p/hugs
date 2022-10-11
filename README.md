@@ -4,7 +4,7 @@ This flake defines how to build and run the Hugs Haskell interpreter on
 MacOS machines with the x86 chipset. Its quite likely that this source can
 build on M1, etc. but someone else will have to test that.
 
-This flake builds from the last public source release of Hugs (September 2006). No
+This flake builds from the last [public source release of Hugs (September 2006)](https://www.haskell.org/hugs/downloads/2006-09/hugs98-plus-Sep2006.tar.gz). No
 updates were made to the source, except those necessary to get it to compile.
 
 # Building Hugs
